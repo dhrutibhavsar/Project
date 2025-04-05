@@ -1,4 +1,4 @@
-#https://three21-project-6bjc.onrender.com
+
 
 import dash
 from dash import dcc, html
@@ -115,7 +115,7 @@ def get_province_data():
     return provinces
 
 # Load and process data
-df = load_and_clean_data('cleaned_data.csv')
+df = load_and_clean_data('data.csv')
 provinces = get_province_data()
 
 # Extract relevant data for visualizations
